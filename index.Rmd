@@ -19,3 +19,5 @@ knitr::write_bib(c(
 ```
 
 # About this Course {-}
+
+.
