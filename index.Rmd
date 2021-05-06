@@ -21,3 +21,7 @@ knitr::write_bib(c(
 # About this Course {-}
 
 .
+
+```{r}
+leanbuild::include_slide("https://docs.google.com/presentation/d/162GS7ArBPM4w_rPazcUrpnoEKT7jx9i7fpPQkH_iC_0/edit#slide=id.gd5c49c5c55_0_165")
+```
