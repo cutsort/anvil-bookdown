@@ -194,14 +194,14 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div id="make-a-plot" class="section level2">
 <h2><span class="header-section-number">4.1</span> Make a plot</h2>
 <p>This is the same code as in chapter 2, but here we can show how setting <code>knitr</code> chunks helps us tidy stuff up.</p>
-<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="figures.html#cb29-1"></a><span class="kw">library</span>(here)</span></code></pre></div>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="figures.html#cb30-1"></a><span class="kw">library</span>(here)</span></code></pre></div>
 <pre><code>## here() starts at /home/rstudio</code></pre>
-<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="figures.html#cb31-1"></a><span class="kw">library</span>(ggplot2)</span>
-<span id="cb31-2"><a href="figures.html#cb31-2"></a><span class="kw">library</span>(magrittr)</span></code></pre></div>
-<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb32-1"><a href="figures.html#cb32-1"></a>iris <span class="op">%&gt;%</span></span>
-<span id="cb32-2"><a href="figures.html#cb32-2"></a><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(Sepal.Length, Sepal.Width, <span class="dt">color =</span> Species)) <span class="op">+</span></span>
-<span id="cb32-3"><a href="figures.html#cb32-3"></a><span class="st">  </span><span class="kw">geom_point</span>() <span class="op">+</span></span>
-<span id="cb32-4"><a href="figures.html#cb32-4"></a><span class="st">  </span><span class="kw">theme_bw</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb32-1"><a href="figures.html#cb32-1"></a><span class="kw">library</span>(ggplot2)</span>
+<span id="cb32-2"><a href="figures.html#cb32-2"></a><span class="kw">library</span>(magrittr)</span></code></pre></div>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="figures.html#cb33-1"></a>iris <span class="op">%&gt;%</span></span>
+<span id="cb33-2"><a href="figures.html#cb33-2"></a><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(Sepal.Length, Sepal.Width, <span class="dt">color =</span> Species)) <span class="op">+</span></span>
+<span id="cb33-3"><a href="figures.html#cb33-3"></a><span class="st">  </span><span class="kw">geom_point</span>() <span class="op">+</span></span>
+<span id="cb33-4"><a href="figures.html#cb33-4"></a><span class="st">  </span><span class="kw">theme_bw</span>()</span></code></pre></div>
 <p><img src="images/04-figures_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 
 </div>
